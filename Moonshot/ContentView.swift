@@ -35,7 +35,7 @@ struct ContentView: View {
                                     Text(missions.displayName)
                                         .font(.headline)
                                     
-                                    Text(missions.launchDate ?? "N/A")
+                                    Text(missions.formattedLaunchDate)
                                         .font(.caption)
                                 }
                                 .frame(maxWidth: .infinity)

@@ -23,12 +23,16 @@ extension Bundle {
         
         //decode the data from JSON and then return the array of Astronauts
       let decoder = JSONDecoder()
+        //Adding the date formatter
+        let formatter = DateFormatter()
+        formatter.dateFormat = "y-MM-dd"
+        decoder.dateDecodingStrategy = .formatted(formatter)
 
         guard let loaded = try? decoder.decode(T.self, from: data) else{
             fatalError("Failed to decode \(file) form bundle.")
         }
         
-        //
+        
         
         return loaded
     }
