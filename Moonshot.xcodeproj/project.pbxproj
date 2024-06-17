@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		949DB8342C1E5C5700D22813 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DB8332C1E5C5700D22813 /* Color-Theme.swift */; };
 		949DB8362C1F656C00D22813 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DB8352C1F656C00D22813 /* MissionView.swift */; };
+		949DB8382C20377600D22813 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DB8372C20377600D22813 /* AstronautView.swift */; };
 		94D9302E2C1A19DA00E83400 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D9302D2C1A19DA00E83400 /* MoonshotApp.swift */; };
 		94D930302C1A19DA00E83400 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D9302F2C1A19DA00E83400 /* ContentView.swift */; };
 		94D930322C1A19DB00E83400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D930312C1A19DB00E83400 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		949DB8332C1E5C5700D22813 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		949DB8352C1F656C00D22813 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		949DB8372C20377600D22813 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		94D9302A2C1A19DA00E83400 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D9302D2C1A19DA00E83400 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		94D9302F2C1A19DA00E83400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				949DB8352C1F656C00D22813 /* MissionView.swift */,
+				949DB8372C20377600D22813 /* AstronautView.swift */,
 				94D9302C2C1A19DA00E83400 /* Moonshot */,
 				94D9302B2C1A19DA00E83400 /* Products */,
 			);
@@ -162,6 +165,7 @@
 			files = (
 				949DB8362C1F656C00D22813 /* MissionView.swift in Sources */,
 				94D930402C1A209C00E83400 /* Astronaut.swift in Sources */,
+				949DB8382C20377600D22813 /* AstronautView.swift in Sources */,
 				949DB8342C1E5C5700D22813 /* Color-Theme.swift in Sources */,
 				94D930302C1A19DA00E83400 /* ContentView.swift in Sources */,
 				94D9302E2C1A19DA00E83400 /* MoonshotApp.swift in Sources */,
